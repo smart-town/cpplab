@@ -9,11 +9,12 @@ add_executable(04smartpointer 01basic/smartpointers.cpp)
 add_executable(05structure 01basic/structure.cpp)
 add_executable(06dynamicpoly 01basic/dynamicpolymorphism.cpp)
 add_executable(07exception 01basic/exceptions.cpp)
+add_executable(08codesplit 01basic/codesplitting.cpp)
 
 
-message("PROJECT_SOURCE_DIR = ${PROJECT_SOURCE_DIR}")
-add_executable(crowtest crowtest/app.cpp)
-target_include_directories(crowtest 
-    PRIVATE
-        ${PROJECT_SOURCE_DIR}/lib/headers
-)
+# message("PROJECT_SOURCE_DIR = ${PROJECT_SOURCE_DIR}")
+# add_executable(crowtest crowtest/app.cpp)
+# target_include_directories(crowtest 
+#     PRIVATE
+#         ${PROJECT_SOURCE_DIR}/lib/headers
+# )
